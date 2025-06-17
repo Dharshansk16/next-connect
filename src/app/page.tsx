@@ -6,6 +6,7 @@ import {
   UserButton,
 } from "@clerk/nextjs";
 import { Button } from "@/components/ui/button";
+import { ModeToggle } from "@/components/ui/toggle";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <SignedIn>
           <UserButton />
         </SignedIn>
+        <ModeToggle />
       </header>
       <h1>Hello world </h1>
     </div>
